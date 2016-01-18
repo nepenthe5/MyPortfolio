@@ -1,0 +1,18 @@
+@import  "csswizardry-grids";
+
+$small: 480px;
+$medium: 700px;
+$large: 999px;
+$gutter: 20px;
+
+* {margin:0;padding:0;box-sizing:border-box;}
+body {
+    background: #FAF3FF;
+    font-family: "Lato", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 18px; /*Base font size=18pt=24px !Edited to 18px*/
+    color: #624A73; /*dark purple*/
+}
+.wrapper {
+  margin-left: 2em;
+  margin-right: 2em;
+}
