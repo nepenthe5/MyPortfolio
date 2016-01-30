@@ -1276,7 +1276,9 @@ body {
 color: $copy-color; /*dark purple*/ }
 
 header {
-  font-size: 1.5em; }
+  font-size: 1.5em;
+  font-family: "Pathway Gothic One", sans-serif;
+  padding-top: 2em; }
 
 .wrapper {
   margin: 0 auto 0 auto;
