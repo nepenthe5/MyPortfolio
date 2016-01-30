@@ -1270,7 +1270,7 @@
 
 body {
   background: #FAF3FF;
-  font: "Fauna One", serif;
+  font-family: "Fauna One", serif;
   font-size: 18px;
                  /*Base font size=18pt=24px
 color: $copy-color; /*dark purple*/ }
@@ -1279,7 +1279,7 @@ header {
   font-size: 1.5em; }
 
 .wrapper {
-  margin-left: 2em;
-  margin-right: 2em; }
+  margin: 0 auto 0 auto;
+  max-width: 960px; }
 
 /*# sourceMappingURL=styles.css.map */

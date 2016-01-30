@@ -19,7 +19,7 @@ $copy-font: "Fauna One", serif;
 
 body {
   background: $support-color;
-  font: $copy-font;
+  font-family: $copy-font;
   //font-family: "Lato", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 18px; /*Base font size=18pt=24px
   color: $copy-color; /*dark purple*/
@@ -28,6 +28,6 @@ header {
   font-size: 1.5em;
 }
 .wrapper {
-  margin-left: 2em;
-  margin-right: 2em;
+  margin: 0 auto 0 auto;
+  max-width: 960px;
 }
