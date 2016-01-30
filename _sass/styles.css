@@ -1282,8 +1282,10 @@ header {
   color: #624A73;
   padding-top: 2em; }
 
-nav {
-  text-decoration: none; }
+nav a {
+  text-decoration: none;
+  color: #624A73;
+  padding-left: .3em; }
 
 .wrapper {
   margin: 0 auto 0 auto;
