@@ -26,6 +26,8 @@ body {
 }
 header {
   font-size: 1.5em;
+  font-family: $header-font;
+  padding-top: 2em;
 }
 .wrapper {
   margin: 0 auto 0 auto;
