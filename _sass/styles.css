@@ -1270,11 +1270,10 @@
 
 body {
   background: #FAF3FF;
-  font-family: "Lato", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: "Pathway Gothic One", sans-serif;
   font-size: 18px;
-  /*Base font size=18pt=24px !Edited to 18px*/
-  color: #624A73;
-  /*dark purple*/ }
+                 /*Base font size=18pt=24px
+color: $copy-color; /*dark purple*/ }
 
 .wrapper {
   margin-left: 2em;
