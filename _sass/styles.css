@@ -1270,10 +1270,13 @@
 
 body {
   background: #FAF3FF;
-  font: "Pathway Gothic One", sans-serif;
+  font: "Fauna One", serif;
   font-size: 18px;
                  /*Base font size=18pt=24px
 color: $copy-color; /*dark purple*/ }
+
+header {
+  font-size: 1.5em; }
 
 .wrapper {
   margin-left: 2em;

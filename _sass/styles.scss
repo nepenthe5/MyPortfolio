@@ -18,11 +18,14 @@ $header-font: "Pathway Gothic One", sans-serif;
 $copy-font: "Fauna One", serif;
 
 body {
-    background: $support-color;
-    font: $header-font;
-    //font-family: "Lato", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 18px; /*Base font size=18pt=24px
-    color: $copy-color; /*dark purple*/
+  background: $support-color;
+  font: $copy-font;
+  //font-family: "Lato", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px; /*Base font size=18pt=24px
+  color: $copy-color; /*dark purple*/
+}
+header {
+  font-size: 1.5em;
 }
 .wrapper {
   margin-left: 2em;
