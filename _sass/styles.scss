@@ -25,10 +25,13 @@ body {
   color: $copy-color; /*bluish black*/
 }
 header {
-  font-size: 1.5em;
+  font-size: 1.9em;
   font-family: $header-font;
   color: $primary-color;
   padding-top: 2em;
+}
+nav {
+  text-decoration: none;
 }
 .wrapper {
   margin: 0 auto 0 auto;

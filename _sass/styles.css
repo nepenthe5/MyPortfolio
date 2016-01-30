@@ -1277,10 +1277,13 @@ body {
   /*bluish black*/ }
 
 header {
-  font-size: 1.5em;
+  font-size: 1.9em;
   font-family: "Pathway Gothic One", sans-serif;
   color: #624A73;
   padding-top: 2em; }
+
+nav {
+  text-decoration: none; }
 
 .wrapper {
   margin: 0 auto 0 auto;
