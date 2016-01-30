@@ -1,0 +1,30 @@
+@import  "csswizardry-grids";
+
+$small: 480px;
+$medium: 700px;
+$large: 999px;
+$gutter: 20px;
+
+* {margin:0;padding:0;box-sizing:border-box;}
+
+//Palette 
+$primary-color: #624A73;
+$support-color: #FAF3FF;
+$action-color: #50AD9B;
+$copy-color: #404952;
+
+//Typography
+$header-font: "Pathway Gothic One", sans-serif;
+$copy-font: "Fauna One", serif;
+
+body {
+    background: $support-color;
+    font: $header-font;
+    //font-family: "Lato", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 18px; /*Base font size=18pt=24px
+    color: $copy-color; /*dark purple*/
+}
+.wrapper {
+  margin-left: 2em;
+  margin-right: 2em;
+}
