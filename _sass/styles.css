@@ -1274,11 +1274,12 @@ body {
   font-size: 18px;
   /*Base font size*/
   color: #404952;
-  /*dark purple*/ }
+  /*bluish black*/ }
 
 header {
   font-size: 1.5em;
   font-family: "Pathway Gothic One", sans-serif;
+  color: #624A73;
   padding-top: 2em; }
 
 .wrapper {
