@@ -1,27 +1,30 @@
+// Import other files
+
 @import  "csswizardry-grids";
 @import "mixins.scss";
 
-//Variables
+// Variables
 
-//Breakpoints
+// Breakpoints
 $small: 480px;
 $medium: 700px;
 $large: 999px;
 $gutter: 20px;
 
-//Palette 
-$primary-color: #624A73;
-$support-color: #FAF3FF;
-$action-color: #50AD9B;
-$copy-color: #404952;
+// Palette 
+$primary-color: #624A73;   // aubergine
+$support-color: #FAF3FF;   // ghost lavender
+$action-color: #50AD9B;    // teal
+$copy-color: #404952;      // bluish black
+$alt-copy-color: #747D8F;  // silver
 
-//Typography
+// Typography
 $header-font: "Pathway Gothic One", sans-serif;
 $copy-font: "Fauna One", serif;
 
 * {margin:0;padding:0;box-sizing:border-box;}
 
-//Styles
+// Styles
 
 body {
   background: $support-color;
@@ -31,9 +34,7 @@ body {
   color: $copy-color; /*bluish black*/
 }
 header {
-  font-size: 1.9em;
-  font-family: $header-font;
-  color: $primary-color;
+  @include header-style;
   padding-top: 2em;
 }
 nav a {
