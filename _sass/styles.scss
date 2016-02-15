@@ -1,11 +1,13 @@
 @import  "csswizardry-grids";
+@import "mixins.scss";
 
+//Variables
+
+//Breakpoints
 $small: 480px;
 $medium: 700px;
 $large: 999px;
 $gutter: 20px;
-
-* {margin:0;padding:0;box-sizing:border-box;}
 
 //Palette 
 $primary-color: #624A73;
@@ -16,6 +18,10 @@ $copy-color: #404952;
 //Typography
 $header-font: "Pathway Gothic One", sans-serif;
 $copy-font: "Fauna One", serif;
+
+* {margin:0;padding:0;box-sizing:border-box;}
+
+//Styles
 
 body {
   background: $support-color;
