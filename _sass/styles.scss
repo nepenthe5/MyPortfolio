@@ -37,10 +37,18 @@ header {
   @include header-style;
   padding-top: 2em;
 }
+nav {
+  text-align: right;
+}
 nav a {
   text-decoration: none;
   color: $primary-color;
   padding-left: .3em;
+  //float: right;
+  display: inline-block;
+}
+.active-link {
+  color: $action-color;
 }
 .wrapper {
   margin: 0 auto 0 auto;

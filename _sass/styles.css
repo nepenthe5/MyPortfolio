@@ -1280,12 +1280,20 @@ header {
   font-size: 1.9em;
   font-family: "Pathway Gothic One", sans-serif;
   color: #624A73;
+  text-transform: uppercase;
   padding-top: 2em; }
+
+nav {
+  text-align: right; }
 
 nav a {
   text-decoration: none;
   color: #624A73;
-  padding-left: .3em; }
+  padding-left: .3em;
+  display: inline-block; }
+
+.active-link {
+  color: #50AD9B; }
 
 .wrapper {
   margin: 0 auto 0 auto;
