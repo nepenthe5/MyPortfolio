@@ -1269,11 +1269,11 @@
   box-sizing: border-box; }
 
 body {
-  background: #FAF3FF;
   font-family: "Fauna One", serif;
   font-size: 18px;
   /*Base font size*/
-  color: #404952; }
+  color: #404952;
+  background: #FAF3FF; }
 
 header {
   font-size: 1.9em;

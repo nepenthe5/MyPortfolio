@@ -27,11 +27,8 @@ $copy-font: "Fauna One", serif;
 // Styles
 
 body {
+  @include copy-style;
   background: $support-color;
-  font-family: $copy-font;
-  //font-family: "Lato", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 18px; /*Base font size*/
-  color: $copy-color; 
 }
 header {
   @include header-style;
