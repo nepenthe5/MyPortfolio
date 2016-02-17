@@ -1,11 +1,11 @@
 @mixin copy-style {
   font-family: $copy-font;
   //font-family: "Lato", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 18px; /*Base font size*/
+  font-size: $base-font-size; /*Base font size*/
   color: $copy-color; 
 }
 @mixin header-style {
-  font-size: 1.9em;
+  font-size: 1.7em;
   font-family: $header-font;
   color: $primary-color;
   text-transform: uppercase;

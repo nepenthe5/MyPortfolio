@@ -20,7 +20,10 @@ $alt-copy-color: #747D8F;  // silver
 
 // Typography
 $header-font: "Pathway Gothic One", sans-serif;
-$copy-font: "Fauna One", serif;
+$copy-font: 'Bitter', serif;
+
+$base-font-size: 18px;
+
 
 * {margin:0;padding:0;box-sizing:border-box;}
 
@@ -34,6 +37,18 @@ header {
   @include header-style;
   padding-top: 2em;
 }
+section[role="summary"] {
+  padding: 6em 0 6em 0;
+
+  p {
+    margin: 1em 0 1em 0;
+  }
+}
+h1 {
+  @include header-style;
+  font-size: 3.7em;
+  font-weight: normal;
+}
 nav {
   text-align: right;
 }
@@ -42,6 +57,9 @@ nav a {
   color: $primary-color;
   padding-left: 1em;
   display: inline-block;
+}
+.name {
+  font-size: 1.3em; // Error here. Supposed to put 1.9em but blows up size???
 }
 .active-link {
   color: $action-color;
