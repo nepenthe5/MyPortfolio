@@ -1312,6 +1312,23 @@ nav a {
   padding-left: 1em;
   display: inline-block; }
 
+section[role="main"] li a {
+  text-decoration: none;
+  color: #624A73; }
+
+footer {
+  padding: 6em 0 2em 0; }
+  footer ul {
+    list-style-type: none; }
+    footer ul li {
+      display: inline-block; }
+      footer ul li a {
+        text-decoration: none;
+        color: #624A73;
+        padding-right: 1em; }
+  footer p {
+    text-align: right; }
+
 .name {
   font-size: 1.3em; }
 
