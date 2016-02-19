@@ -1280,14 +1280,14 @@ header {
   font-family: "Pathway Gothic One", sans-serif;
   color: #624A73;
   text-transform: uppercase;
-  padding: 2em 0 .5em 0;
+  padding: 1em 0 1em 0;
   border-bottom: 1px dashed #000; }
   header p a {
     text-decoration: none;
     color: #624A73; }
 
 section[role="summary"] {
-  padding: 9em 0 9em 0; }
+  padding: 10em 0 10em 0; }
   section[role="summary"] p {
     margin: 2em 0 2em 0; }
 
@@ -1320,7 +1320,7 @@ nav a {
   }*/ }
 
 section[role="main"] {
-  padding: 0 0 9em 0; }
+  padding: 0 0 10em 0; }
   section[role="main"] li a {
     text-decoration: none;
     color: #404952; }
@@ -1328,7 +1328,7 @@ section[role="main"] {
       color: #50AD9B; }
 
 footer {
-  padding: 1.1em 0 2em 0;
+  padding: 1em 0 1em 0;
   border-top: 1px dashed #000; }
   footer ul {
     list-style-type: none;

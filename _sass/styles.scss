@@ -35,7 +35,7 @@ body {
 }
 header {
   @include header-style;
-  padding: 2em 0 .5em 0;
+  padding: 1em 0 1em 0;
   border-bottom: 1px dashed #000;
 
   p a {
@@ -44,7 +44,7 @@ header {
   }
 }
 section[role="summary"] {
-  padding: 9em 0 9em 0;
+  padding: 10em 0 10em 0;
 
   p {
     margin: 2em 0 2em 0;
@@ -75,7 +75,7 @@ nav a {
   // How to add hover effects only to 2nd & 3rd nav links???
 }
 section[role="main"] {
-  padding: 0 0 9em 0;
+  padding: 0 0 10em 0;
 
   li a {
     text-decoration: none;
@@ -87,7 +87,7 @@ section[role="main"] {
   }
 }
 footer {
-  padding: 1.1em 0 2em 0;
+  padding: 1em 0 1em 0;
   border-top: 1px dashed #000;
 
   ul {
