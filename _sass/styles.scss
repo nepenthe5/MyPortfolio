@@ -51,7 +51,7 @@ section[role="summary"] {
 }
 h1 {
   @include header-style;
-  font-size: 3.7em;
+  font-size: 4.5em;
   font-weight: normal;
 }
 h2 {
@@ -68,9 +68,10 @@ nav a {
   padding-left: 1em;
   display: inline-block;
 
-  &:hover {
+  /*&:hover {
     color: $alt-copy-color;
-  }
+  }*/
+  // How to add hover effects only to 2nd & 3rd nav links???
 }
 section[role="main"] {
   li a {

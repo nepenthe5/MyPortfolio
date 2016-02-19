@@ -1295,7 +1295,7 @@ h1 {
   font-family: "Pathway Gothic One", sans-serif;
   color: #624A73;
   text-transform: uppercase;
-  font-size: 3.7em;
+  font-size: 4.5em;
   font-weight: normal; }
 
 h2 {
@@ -1313,9 +1313,10 @@ nav a {
   text-decoration: none;
   color: #624A73;
   padding-left: 1em;
-  display: inline-block; }
-  nav a:hover {
-    color: #747D8F; }
+  display: inline-block;
+  /*&:hover {
+    color: $alt-copy-color;
+  }*/ }
 
 section[role="main"] li a {
   text-decoration: none;
